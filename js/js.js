@@ -1,5 +1,5 @@
 // var goods = document.querySelectorAll('.good');
-goods = [
+var goods = [
   {
    'id' : '1',
    'color' : 'white',
@@ -16,6 +16,8 @@ goods = [
     'size' : '43'
   }
 ]
-console.log(goods.length);
-for (var i = 0; i < goods.length; i++) {
+function getFilteredByColor(array, color) {
+    return array.filter(function (item) {
+    return item.color === color;
+  });
 }
