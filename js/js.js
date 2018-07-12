@@ -15,9 +15,9 @@ var goods = [
     'color' : 'brown',
     'size' : '43'
   }
-]
+];
 function getFilteredByColor(array, color) {
     return array.filter(function (item) {
-    return item.color === color;
+      return item.color === color;
   });
 }

@@ -9,6 +9,7 @@
   display: -ms-flex;
   display: -o-flex;
   display: flex;
+  box-shadow: 0px 2px 15px 0 #DFDFDF;
 }
 .horizont {
   width: 300px;
