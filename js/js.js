@@ -1,4 +1,4 @@
-var goods = document.querySelectorAll('.good');
+// var goods = document.querySelectorAll('.good');
 goods = [
   {
    'id' : '1',
