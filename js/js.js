@@ -1,7 +1,18 @@
 var selec = document.getElementById('sel');
 var goods = document.getElementById('goods');
 selec.onchange = function () {
-  var good = goods.getElementsByClassName('good');
+  let good = goods.getElementsByClassName('good');
+    for (var i = 0; i < good.length; i++) {
+      if (good[i].classList.contains(this.value)) {
+        good[i].style.display = 'inline-block';
+      } else {
+        good[i].style.display = 'none';
+    }
+  }
+}
+var size = document.getElementById('size');
+size.onchange = function () {
+  let good = goods.getElementsByClassName('good');
     for (var i = 0; i < good.length; i++) {
       if (good[i].classList.contains(this.value)) {
         good[i].style.display = 'inline-block';
