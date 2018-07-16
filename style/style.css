@@ -72,6 +72,9 @@ select {
   -o-transition: all .3s ease;
   transition: all .3s ease;
 }
+.good_state_hide {
+  display: none;
+}
 .good > img {
   width: 250px;
   height: 250px;
